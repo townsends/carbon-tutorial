@@ -1,0 +1,30 @@
+diff a/src/content/LandingPage/_mixins.scss b/src/content/LandingPage/_mixins.scss	(rejected hunks)
+@@ -2,2 +2,2 @@
+-    background-color: $ui-01;
+-    position: relative;
++  background-color: $ui-01;
++  position: relative;
+@@ -5,11 +5,11 @@
+-    &::before {
+-      content: '';
+-      position: absolute;
+-      left: -$spacing-05;
+-      top: 0;
+-      right: -$spacing-05;
+-      bottom: 0;
+-      background: $ui-01;
+-      z-index: -1;
+-    }
+-  }
+\ No newline at end of file
++  &::before {
++    content: '';
++    position: absolute;
++    left: -$spacing-05;
++    top: 0;
++    right: -$spacing-05;
++    bottom: 0;
++    background: $ui-01;
++    z-index: -1;
++  }
++}
